@@ -1,0 +1,19 @@
+{
+    "name": "root",
+    "workspaces": [
+        "consumer",
+        "source"
+    ],
+    "scripts": {
+        "start": "cd source && node ../generate-types.mjs && cd ../consumer && node ../generate-types.mjs"
+    },
+    "dependencies": {
+        "jsonfile": "^6.1.0"
+    },
+    "devDependencies": {
+        "@types/fs-extra": "^9.0.13",
+        "@zardoy/tsconfig": "^1.2.2",
+        "fs-extra": "^10.0.0",
+        "typescript": "^4.4.3"
+    }
+}

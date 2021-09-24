@@ -1,0 +1,10 @@
+{
+    "name": "source",
+    "version": "1.0.0",
+    "repository": "https://github.com/zardoy/repro-typescript-linking.git",
+    "author": "Vitaly Turovsky <vital2580@icloud.com>",
+    "license": "MIT",
+    "types": "index.d.ts",
+    "private": true,
+    "devDependencies": {}
+}
